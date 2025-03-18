@@ -53,5 +53,9 @@ while($libro = $listLibros->fetch_assoc()){
 echo '</tbody>
 </table>';
 ?>
+
+<?php include("footer.php");?>
+
+
 </body>
 </html>

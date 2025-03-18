@@ -6,7 +6,7 @@ body{
     display:contents;
     justify-content: center;  
     align-items: center; 
-    text-align: top;
+    
 }
 h1{
     text-align: center;
@@ -80,15 +80,27 @@ button{
   }
 
   .form-container {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
+    display: contents;
     align-content: center;
     width: 400px;
+    height: 100vh;
     max-width: 100%;
-    margin: 10px;
+    margin: 0;    
     display: inline;
+    justify-content: center;
+    
   }
+  .footer {
+    background-color: #1e1f21;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    width: 100%;
+    position:fixed; 
+    bottom: 0;
+    margin-top: 50px; 
+}
 
   
   
