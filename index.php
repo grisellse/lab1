@@ -1,3 +1,5 @@
+
+
 <?php include("conexion.php"); ?>
 
 <!DOCTYPE html>
@@ -5,27 +7,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Inicio</title>
 </head>
 <body>
 
-
-
 <h1>Libros en biblioteca</h1>
 
-<div style ="text-align: center; margin-bottom: 20 px;">
-    <a  href="registrar.php"style="display:inline-block; pdding:10px; background: blue; color; white; text-decoration: none; bordeer-radius; 5px;">Registrar libro</a>
+
 
 </div>
 <?php
 $listLibros = $conexion ->query( 'SELECT * FROM tblibros');
 echo'<table>
                 <thead>
+                <tr>
+                    <th colspan="6" style="text-align: center;">
+                        <a id="decBotReg" href="registrar.php">Registrar libro</a>
+                    </th>
+                </tr>
                     <tr>
                         <th>Titulo</th>
                         <th>Autor</th>
                         <th>Fecha de lanzamiento</th>
                         <th>Editorial</th>
+                        <th colspan="2">Opciones</th>
+                        
+                        
                         
                     </tr>
                 </thead>
@@ -37,8 +45,8 @@ while($libro = $listLibros->fetch_assoc()){
     <td>{$libro['autor']}</td>
     <td>{$libro['fecha_lan']}</td>
     <td>{$libro['editorial']}</td>
-    <td> <a href= 'eliminar.php?id={$libro['id']}'>Eliminar</a></td>
-    <td> <a href= 'editar.php?id={$libro['id']}'>Editar</a></td>
+    <td> <a id='decBotEli'  href= 'eliminar.php?id={$libro['id']}'>Eliminar</a></td>
+    <td> <a id='decBotEdi' href= 'editar.php?id={$libro['id']}'>Editar</a></td>
     </tr>";
 }
 

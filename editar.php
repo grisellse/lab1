@@ -15,28 +15,32 @@ if  (isset($_GET['id'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Editar</title>
 </head>
 <body>
+    <div class="form-container">
     <form action="" method= "post">
         <label for="titulo">Titulo</label>
         <input type="text" name="titulo" id="titulo"
-        value =" <?php echo $Elibro['titulo']; ?>">
+        value="<?php echo $Elibro['titulo']; ?>">
 
         <label for="autor">Autor</label>
         <input type="text" name="autor" id="autor"
-        value=" <?php echo $Elibro['autor']; ?>">
+        value="<?php echo $Elibro['autor']; ?>">
 
         <label for="fecha_lanzamiento">Fecha de lanzamiento</label>
         <input type="date" name="fecha_lanzamiento" id="fecha_lanzamiento"
-        value=" <?php echo $Elibro['fecha_lan']; ?>">
+        value="<?php echo $Elibro['fecha_lan']; ?>">
         <label for="editorial">Editorial</label>
         <input type="text" name="editorial" id="editorial"
-        value=" <?php echo $Elibro['editorial']; ?>">
+        value="<?php echo $Elibro['editorial']; ?>">
         <button type="submit">Registrar</button>
 
 
     </form>
+    </div>
 
     <?php
 
