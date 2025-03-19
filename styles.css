@@ -6,8 +6,14 @@ body{
     display:contents;
     justify-content: center;  
     align-items: center; 
-    
+    margin-top: 100px;
+    padding-top: 120px;
 }
+header{
+text-align: center;
+top: 0;
+}
+
 h1{
     text-align: center;
     margin-bottom: 20px;
@@ -102,5 +108,9 @@ button{
     margin-top: 50px; 
 }
 
-  
-  
+
+
+p, h2{ 
+    text-align: center;
+    top: 0;
+}

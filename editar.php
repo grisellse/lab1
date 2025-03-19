@@ -58,6 +58,6 @@ if  (isset($_GET['id'])) {
      }
      ?>
      <?php include("footer.php");?>
-     
+
 </body>
 </html>

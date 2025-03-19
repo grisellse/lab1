@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+  
 <body>
-<div class="footer">
-        <p>&copy; 2025 Biblioteca YL.Todos los derechos reservados.</p>
-    
-    </div>
+<header>
+    <h2>Bienvenido al CRUD de Libros</h2>
+    <p>Aquí puedes gestionar tu colección de libros.</p>
+</header>      
+
+
+
 </body>
 </html>

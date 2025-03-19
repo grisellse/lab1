@@ -2,6 +2,7 @@
 
 <?php include("conexion.php"); ?>
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,10 +12,6 @@
     <title>Inicio</title>
 </head>
 <body>
-
-<h1>Libros en biblioteca</h1>
-
-
 
 </div>
 <?php
@@ -55,7 +52,7 @@ echo '</tbody>
 ?>
 
 <?php include("footer.php");?>
-
+<?php include("header.php");?>
 
 </body>
 </html>
