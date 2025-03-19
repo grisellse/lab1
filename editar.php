@@ -36,7 +36,7 @@ if  (isset($_GET['id'])) {
         <label for="editorial">Editorial</label>
         <input type="text" name="editorial" id="editorial"
         value="<?php echo $Elibro['editorial']; ?>">
-        <button type="submit">Registrar</button>
+        <button type="submit">Actualizar</button>
 
 
     </form>
