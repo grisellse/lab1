@@ -1,6 +1,6 @@
 body{
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #ccc8c1;
     margin: 0;
     padding: 0;
     display:contents;
@@ -9,9 +9,11 @@ body{
     margin-top: 100px;
     padding-top: 120px;
 }
-header{
+.header{
+background-color: #8c8270;
+color: white;
+padding: 10px 0;
 text-align: center;
-top: 0;
 }
 
 h1{
@@ -55,7 +57,7 @@ a {
 
 #decBotReg{
     display:inline-block;
-     padding:10px; background: blue; 
+     padding:10px; background: #8cc0de; 
      color: white; 
      text-decoration: none; 
      border-radius: 5px;
@@ -63,14 +65,14 @@ a {
 #decBotEli{
 
     display:inline-block;
-     padding:10px; background: rgb(249, 38, 98); 
+     padding:10px; background: #f4bfbf; 
      color: white; 
      text-decoration: none; 
      border-radius: 5px;
 }
 #decBotEdi{
     display:inline-block;
-     padding:10px; background: rgb(233, 255, 107); 
+     padding:10px; background: #f2cea2; 
      color: rgb(0, 0, 0); 
      text-decoration: none; 
      border-radius: 5px;
@@ -79,7 +81,7 @@ a {
 
 button{
     display:inline-block;
-     padding:10px; background: blue; 
+     padding:10px; background:#8cc0de; 
      color: white; 
      text-decoration: none; 
      border-radius: 5px;
@@ -97,7 +99,7 @@ button{
     
   }
   .footer {
-    background-color: #1e1f21;
+    background-color: #736a5a;
     color: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;

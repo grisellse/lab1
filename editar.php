@@ -20,6 +20,7 @@ if  (isset($_GET['id'])) {
     <title>Editar</title>
 </head>
 <body>
+<?php include("header.php");?>
     <div class="form-container">
     <form action="" method= "post">
         <label for="titulo">Titulo</label>

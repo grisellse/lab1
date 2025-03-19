@@ -9,6 +9,7 @@
     <title>Registro</title>
 </head>
 <body>
+<?php include("header.php");?>
     <div class="form-container">
     <form action="" method = "post">
         <label for="titulo">Titulo</label>
@@ -41,6 +42,6 @@
      }
     ?>
     <?php include("footer.php");?>
-    <?php include("header.php");?>
+
 </body>
 </html>

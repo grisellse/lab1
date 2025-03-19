@@ -12,6 +12,9 @@
     <title>Inicio</title>
 </head>
 <body>
+    <?php
+    include("header.php");
+    ?>
 
 </div>
 <?php
@@ -52,7 +55,7 @@ echo '</tbody>
 ?>
 
 <?php include("footer.php");?>
-<?php include("header.php");?>
+
 
 </body>
 </html>

@@ -8,10 +8,11 @@
 </head>
   
 <body>
-<header>
+    <div class="header">
     <h2>Bienvenido al CRUD de Libros</h2>
     <p>Aquí puedes gestionar tu colección de libros.</p>
-</header>      
+</div>
+ 
 
 
 
